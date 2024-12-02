@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#draggable {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: grab;
+  margin: 0 auto 20px;
+}
+
+#dropzone {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #2ecc71;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #2ecc71;
+  font-size: 18px;
+  font-weight: bold;
+}
